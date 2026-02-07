@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  background-color: #000;
+  font-family: 'Fira Mono', monospace;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #111;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.ksh, .auto {
+  color: white;
+}
+
+.super {
+  color: red;
+  margin: 0 10px;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+}
+
+/* SUPPORT SECTION */
+.support-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.intake-img {
+  position: absolute;
+  top: -40px;
+  right: -100px;
+}
+
+.intake-img img {
+  max-width: 250px;
+}
+
+.support-title h1 {
+  font-size: 48px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.support-title h2 {
+  font-size: 24px;
+  font-style: italic;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+/* FORM */
+.support-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.support-form label {
+  text-align: left;
+  font-style: italic;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.support-form input,
+.support-form textarea {
+  background: transparent;
+  border: 2px solid #8000ff;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  font-family: 'Fira Mono', monospace;
+  font-size: 14px;
+}
+
+.support-form button {
+  background: #400080;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-family: 'Fira Mono', monospace;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.support-form button:hover {
+  background: #5d00b5;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 60px;
+  text-align: left;
+  padding: 30px 40px;
+}
+
+footer img {
+  height: 40px;
+}

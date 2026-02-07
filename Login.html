@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | KSH Super Automotive</title>
+  <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <img src="fotci\Login page\image 57.png" alt="Air Intake" class="logo-img" />
+    
+    <h1 class="title">LOGIN</h1>
+
+    <form class="login-form" onsubmit="handleLogin(event)">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" required>
+
+      <button type="submit">LOG IN</button>
+    </form>
+
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="forgot-password">Forgot Password</a>
+  </div>
+
+  <script>
+    function handleLogin(event) {
+      event.preventDefault(); // prevent actual form submission
+      window.location.href = "HomePag.html"; // redirect
+    }
+  </script>
+
+</body>
+</html>

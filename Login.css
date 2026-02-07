@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: white;
+  font-family: 'Fira Mono', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.logo-img {
+  width: 100%;
+  max-width: 260px;
+  margin: 0 auto 30px;
+  display: block;
+}
+
+.title {
+  font-size: 48px;
+  font-style: italic;
+  margin-bottom: 40px;
+  color: #888;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.login-form label {
+  text-align: left;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.login-form input {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #360B56;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  outline: none;
+}
+
+.login-form button {
+  margin-top: 20px;
+  padding: 14px 0;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  background-color: #21032B;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #3a0d4f;
+}
+
+.forgot-password {
+  display: block;
+  margin-top: 20px;
+  font-style: italic;
+  color: #888;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}

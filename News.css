@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #111;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.highlight {
+  color: red;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  text-align: left;
+}
+
+.hero img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero h1 {
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+  font-size: 36px;
+  font-style: italic;
+  color: black;
+}
+
+/* RED LINE */
+.red-line {
+  height: 2px;
+  background-color: red;
+  width: 160px;
+  margin: 30px auto;
+}
+
+/* FEATURED SECTION */
+.main-feature {
+  padding: 0 60px;
+  margin: 20px 0;
+}
+
+.feature-image {
+  position: relative;
+}
+
+.feature-image img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+.text-overlay h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.text-overlay p {
+  font-size: 24px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+/* NEWS GRID */
+.news-grid {
+  padding: 40px 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.news-grid img {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.news-grid img:hover {
+  transform: scale(1.03);
+}
+
+.text-box {
+  background-color: #111;
+  padding: 20px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.text-box p {
+  font-size: 15px;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+/* FOOTER */
+footer {
+  background-color: #111;
+  color: #ccc;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-left img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  font-size: 14px;
+}
+
+.footer-right img {
+  max-width: 300px;
+  height: auto;
+}
